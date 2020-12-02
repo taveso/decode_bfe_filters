@@ -1,0 +1,5479 @@
+[+] filterGuid: 941dad9d-7b1a-4354-997b-00cf1aa9b35c
+
+	header: 01:10:08:00:cc:cc:cc:cc:80:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_IPFORWARD_V6
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x1e
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x1
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_BLOCK
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0x2
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_IPFORWARD_V6_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0xc0000
+
+
+[+] filterGuid: 0c41d586-9c19-4e01-9d66-b5b98a97576e
+
+	header: 01:10:08:00:cc:cc:cc:cc:80:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_INBOUND_ICMP_ERROR_V4
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x3
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x1
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_PERMIT
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0xffffffffffffffffL
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_INBOUND_ICMP_ERROR_V4_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+
+[+] filterGuid: 89a89b7c-b5ab-4ed6-bf05-d3059281a5c5
+
+	header: 01:10:08:00:cc:cc:cc:cc:80:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x1025b
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x1
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_PERMIT
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0xffffffffffffffffL
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x400000
+
+
+[+] filterGuid: 12c38916-82ac-4737-8f38-b6957ffebad6
+
+	header: 01:10:08:00:cc:cc:cc:cc:80:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_INBOUND_ICMP_ERROR_V6
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x4
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x1
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_PERMIT
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0xffffffffffffffffL
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_INBOUND_ICMP_ERROR_V6_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+
+[+] filterGuid: 2db25e6c-f07a-44f4-b6c8-50a330d2790b
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x19
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x1
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x3
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_BLOCK
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0x20c000000L
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ARRIVAL_INTERFACE_TYPE
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ARRIVAL_TUNNEL_TYPE
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+
+[+] filterGuid: c970a45d-57f9-4e32-a5bd-886a9662641e
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x5
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x2
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_PERMIT
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0xffffffffffffffffL
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x800000
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ALE_PACKAGE_ID
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_SID
+		FWP_CONDITION_VALUE0.sid: /* FC_UP */ 0x20010 (SID *)
+	sid: 00000001-0101-0000-0000-000000000000
+
+
+
+[+] filterGuid: 074f7f68-ee10-428a-89d1-ba78f6c327ca
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_INBOUND_ICMP_ERROR_V4
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0xf
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x0
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x0 (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_BLOCK
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0x0
+
+
+[+] filterGuid: c42f1cd6-3a95-4ae2-a513-793c3ae610c7
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x1a
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x1
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x3
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_BLOCK
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0x830000000L
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ARRIVAL_INTERFACE_TYPE
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ARRIVAL_TUNNEL_TYPE
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+
+[+] filterGuid: 84750a0c-b836-48e3-ab80-104985c857db
+
+	header: 01:10:08:00:cc:cc:cc:cc:80:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x1025c
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x1
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_PERMIT
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0xffffffffffffffffL
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x400000
+
+
+[+] filterGuid: 0c3be01b-fe70-4cc4-89dc-c07996b67e6d
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x6
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x2
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_PERMIT
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0xffffffffffffffffL
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x800000
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ALE_PACKAGE_ID
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_SID
+		FWP_CONDITION_VALUE0.sid: /* FC_UP */ 0x20010 (SID *)
+	sid: 00000001-0101-0000-0000-000000000000
+
+
+
+[+] filterGuid: a47525e2-725b-4888-8af1-ba5a60c04f4d
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x11
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x0
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x0 (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_BLOCK
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0x0
+
+
+[+] filterGuid: 2dd96961-5757-434f-b617-34e732517c0e
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x17
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x1
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x3
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_BLOCK
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0x20c000000L
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ARRIVAL_INTERFACE_TYPE
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ARRIVAL_TUNNEL_TYPE
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0xe
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+
+[+] filterGuid: 0ccc96a3-8c5c-45e2-b80e-7e37b16cc1ad
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x12
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x0
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x0 (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_BLOCK
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0x0
+
+
+[+] filterGuid: dc95b53e-01cf-4058-821d-350b3d0d4676
+
+	header: 01:10:08:00:cc:cc:cc:cc:98:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x1
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x2
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_PERMIT
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0x1000e00000000000L
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_IP_PROTOCOL
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT8
+		FWP_CONDITION_VALUE0.uint8: 0x3a
+		padding: 00:00:00
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_IP_LOCAL_PORT
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT16
+		FWP_CONDITION_VALUE0.uint16: 0x87
+		padding: 00:00
+
+
+[+] filterGuid: c016105c-eb34-4519-a5fd-5f4e4ad4d18e
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_INBOUND_ICMP_ERROR_V6
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x10
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x0
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x0 (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_BLOCK
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0x0
+
+
+[+] filterGuid: 935b7f48-0ede-44dd-9bc2-e00bb635cda3
+
+	header: 01:10:08:00:cc:cc:cc:cc:80:00:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_62 *)
+
+	struct_62.elem_1: 0x0
+	struct_62.layerId: FWPS_LAYER_IPFORWARD_V4
+	struct_62.calloutGuid: 00000000-0000-0000-0000-000000000000
+	struct_62.elem_4:
+		union_61.elem_1: /* FC_UP */ 0x20004 (FWPS_FILTER2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.filterId: 0x1d
+	FWPS_FILTER2.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20008 (UINT64 *)
+	FWPS_FILTER2.subLayerWeight: 0x2
+	FWPS_FILTER2.flags: 0x0
+	FWPS_FILTER2.numFilterConditions: 0x1
+	FWPS_FILTER2.filterCondition: /* FC_UP */ 0x2000c (FWPS_FILTER_CONDITION0 *)
+	FWPS_FILTER2.action:
+		FWPS_ACTION0.type: FWP_ACTION_BLOCK
+		FWPS_ACTION0.calloutId: 0x0
+	FWPS_FILTER2.context: 0x0
+	FWPS_FILTER2.providerContext: /* FC_UP */ 0x0 (FWPM_PROVIDER_CONTEXT2 *)
+
+	padding: 00:00:00:00
+
+	FWPS_FILTER2.weight: 0x2
+
+	FWPS_FILTER_CONDITION0.fieldId: FWPS_FIELD_IPFORWARD_V4_FLAGS
+	FWPS_FILTER_CONDITION0.reserved: 0x0
+	FWPS_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPS_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0xc0000
+
+
+16 BootTime Filters
+
+0
+Filter
+	Id: 0x1e
+	GUID: 941dad9d-7b1a-4354-997b-00cf1aa9b35c
+	Weight: 0x2
+	Layer Id: FWPS_LAYER_IPFORWARD_V6
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPS_FIELD_IPFORWARD_V6_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		786432 (0xc0000)
+
+1
+Filter
+	Id: 0x3
+	GUID: 0c41d586-9c19-4e01-9d66-b5b98a97576e
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPS_LAYER_INBOUND_ICMP_ERROR_V4
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPS_FIELD_INBOUND_ICMP_ERROR_V4_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+2
+Filter
+	Id: 0x1025b
+	GUID: 89a89b7c-b5ab-4ed6-bf05-d3059281a5c5
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		4194304 (0x400000)
+
+3
+Filter
+	Id: 0x4
+	GUID: 12c38916-82ac-4737-8f38-b6957ffebad6
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPS_LAYER_INBOUND_ICMP_ERROR_V6
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPS_FIELD_INBOUND_ICMP_ERROR_V6_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+4
+Filter
+	Id: 0x19
+	GUID: 2db25e6c-f07a-44f4-b6c8-50a330d2790b
+	Weight: 0x20c000000L
+	Layer Id: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ARRIVAL_TUNNEL_TYPE
+		FWP_MATCH_EQUAL
+		1 (0x1)
+
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+5
+Filter
+	Id: 0x5
+	GUID: c970a45d-57f9-4e32-a5bd-886a9662641e
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		8388608 (0x800000)
+
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ALE_PACKAGE_ID
+		FWP_MATCH_EQUAL
+		00000001-0101-0000-0000-000000000000
+
+6
+Filter
+	Id: 0xf
+	GUID: 074f7f68-ee10-428a-89d1-ba78f6c327ca
+	Weight: 0x0
+	Layer Id: FWPS_LAYER_INBOUND_ICMP_ERROR_V4
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+7
+Filter
+	Id: 0x1a
+	GUID: c42f1cd6-3a95-4ae2-a513-793c3ae610c7
+	Weight: 0x830000000L
+	Layer Id: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_ARRIVAL_TUNNEL_TYPE
+		FWP_MATCH_EQUAL
+		1 (0x1)
+
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+8
+Filter
+	Id: 0x1025c
+	GUID: 84750a0c-b836-48e3-ab80-104985c857db
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		4194304 (0x400000)
+
+9
+Filter
+	Id: 0x6
+	GUID: 0c3be01b-fe70-4cc4-89dc-c07996b67e6d
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		8388608 (0x800000)
+
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ALE_PACKAGE_ID
+		FWP_MATCH_EQUAL
+		00000001-0101-0000-0000-000000000000
+
+10
+Filter
+	Id: 0x11
+	GUID: a47525e2-725b-4888-8af1-ba5a60c04f4d
+	Weight: 0x0
+	Layer Id: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+11
+Filter
+	Id: 0x17
+	GUID: 2dd96961-5757-434f-b617-34e732517c0e
+	Weight: 0x20c000000L
+	Layer Id: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_ARRIVAL_TUNNEL_TYPE
+		FWP_MATCH_EQUAL
+		14 (0xe)
+
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+12
+Filter
+	Id: 0x12
+	GUID: 0ccc96a3-8c5c-45e2-b80e-7e37b16cc1ad
+	Weight: 0x0
+	Layer Id: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+13
+Filter
+	Id: 0x1
+	GUID: dc95b53e-01cf-4058-821d-350b3d0d4676
+	Weight: 0x1000e00000000000L
+	Layer Id: FWPS_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_IP_PROTOCOL
+		FWP_MATCH_EQUAL
+		58 (0x3a)
+
+		FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_IP_LOCAL_PORT
+		FWP_MATCH_EQUAL
+		135 (0x87)
+
+14
+Filter
+	Id: 0x10
+	GUID: c016105c-eb34-4519-a5fd-5f4e4ad4d18e
+	Weight: 0x0
+	Layer Id: FWPS_LAYER_INBOUND_ICMP_ERROR_V6
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+15
+Filter
+	Id: 0x1d
+	GUID: 935b7f48-0ede-44dd-9bc2-e00bb635cda3
+	Weight: 0x2
+	Layer Id: FWPS_LAYER_IPFORWARD_V4
+	Callout Id: 0x0
+	Callout GUID: 00000000-0000-0000-0000-000000000000
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPS_FIELD_IPFORWARD_V4_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		786432 (0xc0000)
+
+
+[+] filterGuid: {0c41d586-9c19-4e01-9d66-b5b98a97576e}
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x180
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:70:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 0c41d586-9c19-4e01-9d66-b5b98a97576e
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 61499990-3cb6-4e84-b950-53b94b6964f3
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x3
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {0593d9b7-8e2b-44b1-9f9e-2831da1c9bd9}
+
+	header: 01:10:08:00:cc:cc:cc:cc:c8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x168
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:58:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 0593d9b7-8e2b-44b1-9f9e-2831da1c9bd9
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10125
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {12c38916-82ac-4737-8f38-b6957ffebad6}
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x180
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:70:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 12c38916-82ac-4737-8f38-b6957ffebad6
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 65f9bdff-3b2d-4e5d-b8c6-c720651fe898
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x4
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {c970a45d-57f9-4e32-a5bd-886a9662641e}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b0
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: c970a45d-57f9-4e32-a5bd-886a9662641e
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x5
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20020 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x800000
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ALE_PACKAGE_ID
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_SID
+		FWP_CONDITION_VALUE0.sid: /* FC_UP */ 0x2001c (SID *)
+
+	sid: 00000001-0101-0000-0000-000000000000
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {074f7f68-ee10-428a-89d1-ba78f6c327ca}
+
+	header: 01:10:08:00:cc:cc:cc:cc:78:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x158
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:48:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 074f7f68-ee10-428a-89d1-ba78f6c327ca
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 61499990-3cb6-4e84-b950-53b94b6964f3
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0xf
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {4137b143-2770-43d4-91a2-55bb0a069830}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x178
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 4137b143-2770-43d4-91a2-55bb0a069830
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x1
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1012a
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPM_FILTER0.effectiveWeight: 0x1000000820000000L
+
+
+[+] filterGuid: {d870c96c-75ee-46a6-8a02-8e4401a73423}
+
+	header: 01:10:08:00:cc:cc:cc:cc:b8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x158
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:48:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: d870c96c-75ee-46a6-8a02-8e4401a73423
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10124
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPM_FILTER0.effectiveWeight: 0x800000000L
+
+
+[+] filterGuid: {1165065e-4996-4338-abaf-4b8556b4d431}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b0
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 1165065e-4996-4338-abaf-4b8556b4d431
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0xa
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20020 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x800000
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ALE_PACKAGE_ID
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_SID
+		FWP_CONDITION_VALUE0.sid: /* FC_UP */ 0x2001c (SID *)
+
+	sid: 00000001-0101-0000-0000-000000000000
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {8b50e2ec-7cF0-4b71-b42e-5b0536f6cab8}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x178
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 8b50e2ec-7cf0-4b71-b42e-5b0536f6cab8
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x1
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10129
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPM_FILTER0.effectiveWeight: 0x1000000208000000L
+
+
+[+] filterGuid: {15d327cf-89c3-4032-9ded-774ae6b0b49f}
+
+	header: 01:10:08:00:cc:cc:cc:cc:c8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x168
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:58:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 15d327cf-89c3-4032-9ded-774ae6b0b49f
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 4a72393b-319f-44bc-84c3-ba54dcb3b6b4
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10127
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {3a90a266-1519-4d23-911b-e84cd0f02ab8}
+
+	header: 01:10:08:00:cc:cc:cc:cc:18:03:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b8
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 3a90a266-1519-4d23-911b-e84cd0f02ab8
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x41
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x1
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x4
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1012f
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_PROTOCOL
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT8
+		FWP_CONDITION_VALUE0.uint8: 0x11
+		padding: 00:00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_LOCAL_PORT
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT16
+		FWP_CONDITION_VALUE0.uint16: 0x222
+		padding: 00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_REMOTE_PORT
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT16
+		FWP_CONDITION_VALUE0.uint16: 0x223
+		padding: 00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPM_FILTER0.effectiveWeight: 0x1000e1c200000000L
+
+
+[+] filterGuid: {9248d57e-f843-4159-807d-3813173e2096}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x178
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 9248d57e-f843-4159-807d-3813173e2096
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x11
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x0
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x0 (UINT8 *)
+	FWPM_FILTER0.layerKey: af80470a-5596-4c13-9992-539e6fe57967
+	FWPM_FILTER0.subLayerKey: 8c36b346-4e0c-4049-8b55-5295ac35567c
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_EMPTY
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x0 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_CALLOUT_UNKNOWN
+		FWPM_ACTION0.calloutKey: c4b50f21-503e-4d7a-abd4-ed0a823a2453
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10502
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20010 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "NIS ALE Flow Established V4 Filter"
+
+	FWPM_FILTER0.displayData description: "NIS ALE Flow Established V4 Filter"
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: 839cd73f-1907-49ea-9aa5-0e6be9048087
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {3697a558-3ed3-49be-a4c1-c1a4448653b4}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b8
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 3697a558-3ed3-49be-a4c1-c1a4448653b4
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: ba69dc66-5176-4979-9c89-26a7b46a8327
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x3
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1c
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x8300000000000L
+
+
+[+] filterGuid: {f444c576-6e60-4ea2-9faa-80d57ed12cd2}
+
+	header: 01:10:08:00:cc:cc:cc:cc:b8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x198
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:88:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: f444c576-6e60-4ea2-9faa-80d57ed12cd2
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x1
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x2
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_PROTOCOL
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT8
+		FWP_CONDITION_VALUE0.uint8: 0x3a
+		padding: 00:00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_LOCAL_PORT
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT16
+		FWP_CONDITION_VALUE0.uint16: 0x87
+		padding: 00:00
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x1000e00000000000L
+
+
+[+] filterGuid: {567d3836-3f5b-4067-b9c4-952f677010a2}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x178
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 567d3836-3f5b-4067-b9c4-952f677010a2
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x41
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x1
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1012d
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_PROTOCOL
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT8
+		FWP_CONDITION_VALUE0.uint8: 0x3a
+		padding: 00:00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_LOCAL_PORT
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT16
+		FWP_CONDITION_VALUE0.uint16: 0x87
+		padding: 00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x1000e00000000000L
+
+
+[+] filterGuid: {082edf36-12d7-4698-858a-cf274b78d09a}
+
+	header: 01:10:08:00:cc:cc:cc:cc:c8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x168
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:58:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 082edf36-12d7-4698-858a-cf274b78d09a
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: c38d57d1-05a7-4c33-904f-7fbceee60e82
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10128
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {2db25e6c-f07a-44f4-b6c8-50a330d2790b}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b8
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 2db25e6c-f07a-44f4-b6c8-50a330d2790b
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: ba69dc66-5176-4979-9c89-26a7b46a8327
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x3
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x19
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x20c0000000000L
+
+
+[+] filterGuid: {b02a4013-b6b5-4859-9168-1e3299e43b24}
+
+	header: 01:10:08:00:cc:cc:cc:cc:b8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x158
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:48:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: b02a4013-b6b5-4859-9168-1e3299e43b24
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10123
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPM_FILTER0.effectiveWeight: 0x200000000L
+
+
+[+] filterGuid: {b98b75dc-17c0-4e84-bd4e-2080527ca6a6}
+
+	header: 01:10:08:00:cc:cc:cc:cc:f0:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x190
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:80:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: b98b75dc-17c0-4e84-bd4e-2080527ca6a6
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1025e
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "AppContainerBoottimeFilter"
+
+	FWPM_FILTER0.displayData description: "AppContainerBoottimeFilter"
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x400000
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {e72646bc-7d3f-4c5c-a679-b3716f8c6cc8}
+
+	header: 01:10:08:00:cc:cc:cc:cc:f0:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x190
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:80:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: e72646bc-7d3f-4c5c-a679-b3716f8c6cc8
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1025d
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "AppContainerBoottimeFilter"
+
+	FWPM_FILTER0.displayData description: "AppContainerBoottimeFilter"
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x400000
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {0ccc96a3-8c5c-45e2-b80e-7e37b16cc1ad}
+
+	header: 01:10:08:00:cc:cc:cc:cc:78:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x158
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:48:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 0ccc96a3-8c5c-45e2-b80e-7e37b16cc1ad
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x12
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {c42f1cd6-3a95-4ae2-a513-793c3ae610c7}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b8
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: c42f1cd6-3a95-4ae2-a513-793c3ae610c7
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: ba69dc66-5176-4979-9c89-26a7b46a8327
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x3
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1a
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x8300000000000L
+
+
+[+] filterGuid: {be7cbdf4-b192-4aa5-94f8-1fb5c5ee07bc}
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x180
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:70:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: be7cbdf4-b192-4aa5-94f8-1fb5c5ee07bc
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 65f9bdff-3b2d-4e5d-b8c6-c720651fe898
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x8
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {716b48eb-0a35-4a76-92ab-1d987230d288}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b0
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 716b48eb-0a35-4a76-92ab-1d987230d288
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x9
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20020 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x800000
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ALE_PACKAGE_ID
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_SID
+		FWP_CONDITION_VALUE0.sid: /* FC_UP */ 0x2001c (SID *)
+
+	sid: 00000001-0101-0000-0000-000000000000
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {91ffecf0-0a9e-4572-95f1-a7111af86967}
+
+	header: 01:10:08:00:cc:cc:cc:cc:78:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x158
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:48:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 91ffecf0-0a9e-4572-95f1-a7111af86967
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 61499990-3cb6-4e84-b950-53b94b6964f3
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x13
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {2dd96961-5757-434f-b617-34e732517c0e}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b8
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 2dd96961-5757-434f-b617-34e732517c0e
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: ba69dc66-5176-4979-9c89-26a7b46a8327
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x3
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x17
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0xe
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x20c0000000000L
+
+
+[+] filterGuid: {b6fdab6b-dcc6-43e3-99ce-7aeca65063a4}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b8
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: b6fdab6b-dcc6-43e3-99ce-7aeca65063a4
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: ba69dc66-5176-4979-9c89-26a7b46a8327
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x3
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1b
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x20c0000000000L
+
+
+[+] filterGuid: {935b7f48-0ede-44dd-9bc2-e00bb635cda3}
+
+	header: 01:10:08:00:cc:cc:cc:cc:98:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x178
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 935b7f48-0ede-44dd-9bc2-e00bb635cda3
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a82acc24-4ee1-4ee1-b465-fd1d25cb10a4
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1d
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0xc0000
+
+	FWPM_FILTER0.effectiveWeight: 0x200000000L
+
+
+[+] filterGuid: {70694559-714a-4a38-a0cd-51439e06f1d8}
+
+	header: 01:10:08:00:cc:cc:cc:cc:70:03:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x210
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:00:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 70694559-714a-4a38-a0cd-51439e06f1d8
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x41
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x1
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x4
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10130
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2002c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_PROTOCOL
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT8
+		FWP_CONDITION_VALUE0.uint8: 0x3a
+		padding: 00:00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_LOCAL_PORT
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT16
+		FWP_CONDITION_VALUE0.uint16: 0x86
+		padding: 00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ALE_APP_ID
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_BYTE_BLOB_TYPE
+		FWP_CONDITION_VALUE0.byteBlob: /* FC_UP */ 0x20018 (FWP_BYTE_BLOB *)
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_REMOTE_ADDRESS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_RANGE
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_RANGE_TYPE
+		FWP_CONDITION_VALUE0.rangeValue: /* FC_UP */ 0x20020 (FWP_RANGE0 *)
+
+	FWP_BYTE_BLOB.size: 0xe
+	FWP_BYTE_BLOB.data: /* FC_UP */ 0x2001c (UINT8 *)
+	data: 53:00:79:00:73:00:74:00:65:00:6d:00:00:00
+	padding: 00:00
+
+	FWP_RANGE0.valueLow:
+		FWP_VALUE0.type: FWP_BYTE_ARRAY16_TYPE
+		FWP_VALUE0.byteArray16: /* FC_UP */ 0x20024 (FWP_BYTE_ARRAY16 *)
+	FWP_RANGE0.valueHigh:
+		FWP_VALUE0.type: FWP_BYTE_ARRAY16_TYPE
+		FWP_VALUE0.byteArray16: /* FC_UP */ 0x20028 (FWP_BYTE_ARRAY16 *)
+	valueLow: fe:80:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+	valueHigh: fe:80:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x1100e02000000000L
+
+
+[+] filterGuid: {4e718c57-c397-4221-9fbb-14fd51701d6a}
+
+	header: 01:10:08:00:cc:cc:cc:cc:18:03:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b8
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 4e718c57-c397-4221-9fbb-14fd51701d6a
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x41
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x1
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x4
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1012e
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_PROTOCOL
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT8
+		FWP_CONDITION_VALUE0.uint8: 0x11
+		padding: 00:00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_LOCAL_PORT
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT16
+		FWP_CONDITION_VALUE0.uint16: 0x44
+		padding: 00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_REMOTE_PORT
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT16
+		FWP_CONDITION_VALUE0.uint16: 0x43
+		padding: 00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	FWPM_FILTER0.effectiveWeight: 0x1007830800000000L
+
+
+[+] filterGuid: {64e55933-15a5-495d-a928-ccca43d44875}
+
+	header: 01:10:08:00:cc:cc:cc:cc:78:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x158
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:48:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 64e55933-15a5-495d-a928-ccca43d44875
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 65f9bdff-3b2d-4e5d-b8c6-c720651fe898
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x14
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {4d9581d2-aef8-4993-84cd-b986ced80d42}
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x180
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:70:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 4d9581d2-aef8-4993-84cd-b986ced80d42
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 61499990-3cb6-4e84-b950-53b94b6964f3
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x7
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {0c3be01b-fe70-4cc4-89dc-c07996b67e6d}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b0
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 0c3be01b-fe70-4cc4-89dc-c07996b67e6d
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x6
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20020 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x800000
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ALE_PACKAGE_ID
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_SID
+		FWP_CONDITION_VALUE0.sid: /* FC_UP */ 0x2001c (SID *)
+
+	sid: 00000001-0101-0000-0000-000000000000
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {0aa7fff8-919f-453c-928c-28a12122ba38}
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x180
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:70:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 0aa7fff8-919f-453c-928c-28a12122ba38
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 4a72393b-319f-44bc-84c3-ba54dcb3b6b4
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0xe
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {b6b2ca61-fb98-4422-adc2-e7cf56b3680c}
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x180
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:70:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: b6b2ca61-fb98-4422-adc2-e7cf56b3680c
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: c38d57d1-05a7-4c33-904f-7fbceee60e82
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0xd
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {07a24961-a760-4e80-b263-6d275e1b09cb}
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x180
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:70:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 07a24961-a760-4e80-b263-6d275e1b09cb
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 41390100-564c-4b32-bc1d-718048354d7c
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0xb
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {13bfd422-6f75-4408-8924-9400ec0cb19c}
+
+	header: 01:10:08:00:cc:cc:cc:cc:78:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x158
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:48:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 13bfd422-6f75-4408-8924-9400ec0cb19c
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x15
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {17043d46-fac2-4561-bca1-0c7a05e95f5f}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x178
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 17043d46-fac2-4561-bca1-0c7a05e95f5f
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x1
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1012c
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_NEXTHOP_INTERFACE_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x4
+
+	FWPM_FILTER0.effectiveWeight: 0x1000000820000000L
+
+
+[+] filterGuid: {375fb39b-08c6-40f2-bdf2-08fa63f970a2}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x1b8
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:a8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 375fb39b-08c6-40f2-bdf2-08fa63f970a2
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: ba69dc66-5176-4979-9c89-26a7b46a8327
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x3
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x18
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0xe
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x20c0000000000L
+
+
+[+] filterGuid: {4658cd86-525d-44ed-98a5-791a7b8655f1}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x178
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 4658cd86-525d-44ed-98a5-791a7b8655f1
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x11
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x0
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x0 (UINT8 *)
+	FWPM_FILTER0.layerKey: 7021d2b3-dfa4-406e-afeb-6afaf7e70efd
+	FWPM_FILTER0.subLayerKey: 8c36b346-4e0c-4049-8b55-5295ac35567c
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_EMPTY
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x0 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_CALLOUT_UNKNOWN
+		FWPM_ACTION0.calloutKey: 91e902db-2cef-4040-b8e2-02fe4fd49c25
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10503
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20010 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "NIS ALE Flow Established V6 Filter"
+
+	FWPM_FILTER0.displayData description: "NIS ALE Flow Established V6 Filter"
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: 839cd73f-1907-49ea-9aa5-0e6be9048087
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {c016105c-eb34-4519-a5fd-5f4e4ad4d18e}
+
+	header: 01:10:08:00:cc:cc:cc:cc:78:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x158
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:48:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: c016105c-eb34-4519-a5fd-5f4e4ad4d18e
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 65f9bdff-3b2d-4e5d-b8c6-c720651fe898
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {916c0dbf-7cec-40f9-9dd9-a5e68b904510}
+
+	header: 01:10:08:00:cc:cc:cc:cc:c8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x168
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:58:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 916c0dbf-7cec-40f9-9dd9-a5e68b904510
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10126
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {84750a0c-b836-48e3-ab80-104985c857db}
+
+	header: 01:10:08:00:cc:cc:cc:cc:f0:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x190
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:80:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 84750a0c-b836-48e3-ab80-104985c857db
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1025c
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "AppContainerBoottimeFilter"
+
+	FWPM_FILTER0.displayData description: "AppContainerBoottimeFilter"
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x400000
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {a47525e2-725b-4888-8af1-ba5a60c04f4d}
+
+	header: 01:10:08:00:cc:cc:cc:cc:78:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x158
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:48:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: a47525e2-725b-4888-8af1-ba5a60c04f4d
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x11
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {56b4fdc4-bb4e-4c42-a9d8-f627ee15ac21}
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x140
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:30:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 56b4fdc4-bb4e-4c42-a9d8-f627ee15ac21
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x11
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x0
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x0 (UINT8 *)
+	FWPM_FILTER0.layerKey: 3b89653c-c170-49e4-b1cd-e0eeeee19a3e
+	FWPM_FILTER0.subLayerKey: 8c36b346-4e0c-4049-8b55-5295ac35567c
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_EMPTY
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x0 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_CALLOUT_UNKNOWN
+		FWPM_ACTION0.calloutKey: 22001ee0-8e87-4f75-ba58-248f5918a63a
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10500
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20010 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "NIS Stream V4 Filter"
+
+	FWPM_FILTER0.displayData description: "NIS Stream V4 Filter"
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: 839cd73f-1907-49ea-9aa5-0e6be9048087
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {89a89b7c-b5ab-4ed6-bf05-d3059281a5c5}
+
+	header: 01:10:08:00:cc:cc:cc:cc:f0:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x190
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:80:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 89a89b7c-b5ab-4ed6-bf05-d3059281a5c5
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1025b
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "AppContainerBoottimeFilter"
+
+	FWPM_FILTER0.displayData description: "AppContainerBoottimeFilter"
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x400000
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {cbfb56db-3c85-4543-9bc2-76ea28cdd74e}
+
+	header: 01:10:08:00:cc:cc:cc:cc:78:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x158
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:48:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: cbfb56db-3c85-4543-9bc2-76ea28cdd74e
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x16
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {941dad9d-7b1a-4354-997b-00cf1aa9b35c}
+
+	header: 01:10:08:00:cc:cc:cc:cc:98:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x178
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 941dad9d-7b1a-4354-997b-00cf1aa9b35c
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 7b964818-19c7-493a-b71f-832c3684d28c
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x0
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_BLOCK
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1e
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_NONE_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0xc0000
+
+	FWPM_FILTER0.effectiveWeight: 0x200000000L
+
+
+[+] filterGuid: {1ba41ed8-151d-4577-9272-317856bc637c}
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x140
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:30:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 1ba41ed8-151d-4577-9272-317856bc637c
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x11
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x0
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x0 (UINT8 *)
+	FWPM_FILTER0.layerKey: 47c9137a-7ec4-46b3-b6e4-48e926b1eda4
+	FWPM_FILTER0.subLayerKey: 8c36b346-4e0c-4049-8b55-5295ac35567c
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_EMPTY
+	FWPM_FILTER0.numFilterConditions: 0x0
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x0 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_CALLOUT_UNKNOWN
+		FWPM_ACTION0.calloutKey: 79f2a265-b693-4cc9-b480-cbcd87bd4747
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x10501
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20010 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "NIS Stream V6 Filter"
+
+	FWPM_FILTER0.displayData description: "NIS Stream V6 Filter"
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: 839cd73f-1907-49ea-9aa5-0e6be9048087
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x0
+
+
+[+] filterGuid: {3180114b-8338-4740-9a16-444134ad62f4}
+
+	header: 01:10:08:00:cc:cc:cc:cc:d8:02:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x178
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x140
+	struct_173.elem_5: /* FC_UP */ 0x20008 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:68:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 3180114b-8338-4740-9a16-444134ad62f4
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2302
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x1
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1012b
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "Interface Un-quarantine filter"
+
+	FWPM_FILTER0.displayData description: ""
+
+	padding: 00:00
+	padding: 00:00
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_NEXTHOP_INTERFACE_TYPE
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x83
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x4
+
+	FWPM_FILTER0.effectiveWeight: 0x1000000208000000L
+
+
+[+] filterGuid: {5b0cb2e2-ab87-4974-9f1c-2f22a654eeb9}
+
+	header: 01:10:08:00:cc:cc:cc:cc:a0:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x180
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:70:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: 5b0cb2e2-ab87-4974-9f1c-2f22a654eeb9
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x1
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: 7fb03b60-7b8d-4dfa-badd-980176fc4e12
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20014 (UINT64 *)
+	FWPM_FILTER0.numFilterConditions: 0x1
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20018 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0xc
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x2001c (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER0.weight: 0xffffffffffffffffL
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_FLAGS
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_FLAGS_ALL_SET
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT32
+		FWP_CONDITION_VALUE0.uint32: 0x1
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0xffffffffffffffffL
+
+
+[+] filterGuid: {dc95b53e-01cf-4058-821d-350b3d0d4676}
+
+	header: 01:10:08:00:cc:cc:cc:cc:b8:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (struct_173 *)
+
+	struct_173.elem_1: Filter
+	struct_173.elem_2: 0x198
+	struct_173.elem_3: /* FC_UP */ 0x20004 (FWPM_FILTER0 **)
+	struct_173.elem_4: 0x0
+	struct_173.elem_5: /* FC_UP */ 0x0 (char *)
+
+	header: 01:10:08:00:cc:cc:cc:cc:88:01:00:00:00:00:00:00
+
+	/* FC_UP */ 0x20000 (FWPM_FILTER0 *)
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.filterKey: dc95b53e-01cf-4058-821d-350b3d0d4676
+	FWPM_FILTER0.displayData:
+		FWPM_DISPLAY_DATA0.name: /* FC_UP */ 0x20004 (wchar_t *)
+		FWPM_DISPLAY_DATA0.description: /* FC_UP */ 0x20008 (wchar_t *)
+	FWPM_FILTER0.flags: 0x2
+	FWPM_FILTER0.providerKey: /* FC_UP */ 0x2000c (GUID *)
+	FWPM_FILTER0.providerData:
+		FWP_BYTE_BLOB.size: 0x8
+		FWP_BYTE_BLOB.data: /* FC_UP */ 0x20010 (UINT8 *)
+	FWPM_FILTER0.layerKey: a3b42c97-9f04-4672-b87e-cee9c483257f
+	FWPM_FILTER0.subLayerKey: b3cdd441-af90-41ba-a745-7c6008ff2301
+	FWPM_FILTER0.weight:
+		FWP_VALUE0.type: FWP_UINT8
+		FWP_VALUE0.uint8: 0x1
+		padding: 00:00:00
+	FWPM_FILTER0.numFilterConditions: 0x2
+	FWPM_FILTER0.filterCondition: /* FC_UP */ 0x20014 (FWPM_FILTER_CONDITION0 *)
+	FWPM_FILTER0.action:
+		FWPM_ACTION0.type: FWP_ACTION_PERMIT
+		FWPM_ACTION0.filterType: 00000000-0000-0000-0000-000000000000
+	FWPM_FILTER0.rawContext: 0x0
+	FWPM_FILTER0.reserved: /* FC_UP */ 0x0 (GUID *)
+	padding: 00:00:00:00
+	FWPM_FILTER0.filterId: 0x1
+	FWPM_FILTER0.effectiveWeight:
+		FWP_VALUE0.type: FWP_UINT64
+		FWP_VALUE0.uint64: /* FC_UP */ 0x20018 (UINT64 *)
+
+	FWPM_FILTER0.displayData name: "@FirewallAPI.dll,-23505"
+
+	FWPM_FILTER0.displayData description: "@FirewallAPI.dll,-23506"
+
+	FWPM_FILTER0.providerKey: decc16ca-3f33-4346-be1e-8fb4ae0f3d62
+
+	FWPM_FILTER0.providerData: ff:ff:ff:ff:ff:ff:ff:ff
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_PROTOCOL
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT8
+		FWP_CONDITION_VALUE0.uint8: 0x3a
+		padding: 00:00:00
+
+	FWPM_FILTER_CONDITION0.fieldKey: FWPM_CONDITION_IP_LOCAL_PORT
+	FWPM_FILTER_CONDITION0.matchType: FWP_MATCH_EQUAL
+	FWPM_FILTER_CONDITION0.conditionValue:
+		FWP_CONDITION_VALUE0.type: FWP_UINT16
+		FWP_CONDITION_VALUE0.uint16: 0x87
+		padding: 00:00
+
+	padding: 00:00:00:00
+
+	FWPM_FILTER0.effectiveWeight: 0x1000e00000000000L
+
+
+52 Persistent Filters
+
+0
+Filter
+	Id: 0x3
+	GUID: 0c41d586-9c19-4e01-9d66-b5b98a97576e
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_INBOUND_ICMP_ERROR_V4
+	Layer GUID: 61499990-3cb6-4e84-b950-53b94b6964f3
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+1
+Filter
+	Id: 0x10125
+	GUID: 0593d9b7-8e2b-44b1-9f9e-2831da1c9bd9
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+2
+Filter
+	Id: 0x4
+	GUID: 12c38916-82ac-4737-8f38-b6957ffebad6
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_INBOUND_ICMP_ERROR_V6
+	Layer GUID: 65f9bdff-3b2d-4e5d-b8c6-c720651fe898
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+3
+Filter
+	Id: 0x5
+	GUID: c970a45d-57f9-4e32-a5bd-886a9662641e
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		8388608 (0x800000)
+
+		FWPM_CONDITION_ALE_PACKAGE_ID
+		FWP_MATCH_EQUAL
+		00000001-0101-0000-0000-000000000000
+
+4
+Filter
+	Id: 0xf
+	GUID: 074f7f68-ee10-428a-89d1-ba78f6c327ca
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_INBOUND_ICMP_ERROR_V4
+	Layer GUID: 61499990-3cb6-4e84-b950-53b94b6964f3
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+5
+Filter
+	Id: 0x1012a
+	GUID: 4137b143-2770-43d4-91a2-55bb0a069830
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0x1
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+6
+Filter
+	Id: 0x10124
+	GUID: d870c96c-75ee-46a6-8a02-8e4401a73423
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+7
+Filter
+	Id: 0xa
+	GUID: 1165065e-4996-4338-abaf-4b8556b4d431
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		8388608 (0x800000)
+
+		FWPM_CONDITION_ALE_PACKAGE_ID
+		FWP_MATCH_EQUAL
+		00000001-0101-0000-0000-000000000000
+
+8
+Filter
+	Id: 0x10129
+	GUID: 8b50e2ec-7cf0-4b71-b42e-5b0536f6cab8
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0x1
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+9
+Filter
+	Id: 0x10127
+	GUID: 15d327cf-89c3-4032-9ded-774ae6b0b49f
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_CONNECT_V6
+	Layer GUID: 4a72393b-319f-44bc-84c3-ba54dcb3b6b4
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+10
+Filter
+	Id: 0x1012f
+	GUID: 3a90a266-1519-4d23-911b-e84cd0f02ab8
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0x1
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_IP_PROTOCOL
+		FWP_MATCH_EQUAL
+		17 (0x11)
+
+		FWPM_CONDITION_IP_LOCAL_PORT
+		FWP_MATCH_EQUAL
+		546 (0x222)
+
+		FWPM_CONDITION_IP_REMOTE_PORT
+		FWP_MATCH_EQUAL
+		547 (0x223)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+11
+Filter
+	Id: 0x10502
+	GUID: 9248d57e-f843-4159-807d-3813173e2096
+	Name: "NIS ALE Flow Established V4 Filter"
+	Description: "NIS ALE Flow Established V4 Filter"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4
+	Layer GUID: af80470a-5596-4c13-9992-539e6fe57967
+	SubLayer GUID: 8c36b346-4e0c-4049-8b55-5295ac35567c
+	Callout GUID: c4b50f21-503e-4d7a-abd4-ed0a823a2453
+	Action: FWP_ACTION_CALLOUT_UNKNOWN
+	Conditions:
+12
+Filter
+	Id: 0x1c
+	GUID: 3697a558-3ed3-49be-a4c1-c1a4448653b4
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: ba69dc66-5176-4979-9c89-26a7b46a8327
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+		FWP_MATCH_EQUAL
+		1 (0x1)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+13
+Filter
+	Id: 0x2
+	GUID: f444c576-6e60-4ea2-9faa-80d57ed12cd2
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x1
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_IP_PROTOCOL
+		FWP_MATCH_EQUAL
+		58 (0x3a)
+
+		FWPM_CONDITION_IP_LOCAL_PORT
+		FWP_MATCH_EQUAL
+		135 (0x87)
+
+14
+Filter
+	Id: 0x1012d
+	GUID: 567d3836-3f5b-4067-b9c4-952f677010a2
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0x1
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_IP_PROTOCOL
+		FWP_MATCH_EQUAL
+		58 (0x3a)
+
+		FWPM_CONDITION_IP_LOCAL_PORT
+		FWP_MATCH_EQUAL
+		135 (0x87)
+
+15
+Filter
+	Id: 0x10128
+	GUID: 082edf36-12d7-4698-858a-cf274b78d09a
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_CONNECT_V4
+	Layer GUID: c38d57d1-05a7-4c33-904f-7fbceee60e82
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+16
+Filter
+	Id: 0x19
+	GUID: 2db25e6c-f07a-44f4-b6c8-50a330d2790b
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: ba69dc66-5176-4979-9c89-26a7b46a8327
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+		FWP_MATCH_EQUAL
+		1 (0x1)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+17
+Filter
+	Id: 0x10123
+	GUID: b02a4013-b6b5-4859-9168-1e3299e43b24
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+18
+Filter
+	Id: 0x1025e
+	GUID: b98b75dc-17c0-4e84-bd4e-2080527ca6a6
+	Name: "AppContainerBoottimeFilter"
+	Description: "AppContainerBoottimeFilter"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		4194304 (0x400000)
+
+19
+Filter
+	Id: 0x1025d
+	GUID: e72646bc-7d3f-4c5c-a679-b3716f8c6cc8
+	Name: "AppContainerBoottimeFilter"
+	Description: "AppContainerBoottimeFilter"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		4194304 (0x400000)
+
+20
+Filter
+	Id: 0x12
+	GUID: 0ccc96a3-8c5c-45e2-b80e-7e37b16cc1ad
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+21
+Filter
+	Id: 0x1a
+	GUID: c42f1cd6-3a95-4ae2-a513-793c3ae610c7
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: ba69dc66-5176-4979-9c89-26a7b46a8327
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+		FWP_MATCH_EQUAL
+		1 (0x1)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+22
+Filter
+	Id: 0x8
+	GUID: be7cbdf4-b192-4aa5-94f8-1fb5c5ee07bc
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_INBOUND_ICMP_ERROR_V6
+	Layer GUID: 65f9bdff-3b2d-4e5d-b8c6-c720651fe898
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+23
+Filter
+	Id: 0x9
+	GUID: 716b48eb-0a35-4a76-92ab-1d987230d288
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		8388608 (0x800000)
+
+		FWPM_CONDITION_ALE_PACKAGE_ID
+		FWP_MATCH_EQUAL
+		00000001-0101-0000-0000-000000000000
+
+24
+Filter
+	Id: 0x13
+	GUID: 91ffecf0-0a9e-4572-95f1-a7111af86967
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_INBOUND_ICMP_ERROR_V4
+	Layer GUID: 61499990-3cb6-4e84-b950-53b94b6964f3
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+25
+Filter
+	Id: 0x17
+	GUID: 2dd96961-5757-434f-b617-34e732517c0e
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: ba69dc66-5176-4979-9c89-26a7b46a8327
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+		FWP_MATCH_EQUAL
+		14 (0xe)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+26
+Filter
+	Id: 0x1b
+	GUID: b6fdab6b-dcc6-43e3-99ce-7aeca65063a4
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: ba69dc66-5176-4979-9c89-26a7b46a8327
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+		FWP_MATCH_EQUAL
+		1 (0x1)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+27
+Filter
+	Id: 0x1d
+	GUID: 935b7f48-0ede-44dd-9bc2-e00bb635cda3
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_IPFORWARD_V4
+	Layer GUID: a82acc24-4ee1-4ee1-b465-fd1d25cb10a4
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		786432 (0xc0000)
+
+28
+Filter
+	Id: 0x10130
+	GUID: 70694559-714a-4a38-a0cd-51439e06f1d8
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0x1
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_IP_PROTOCOL
+		FWP_MATCH_EQUAL
+		58 (0x3a)
+
+		FWPM_CONDITION_IP_LOCAL_PORT
+		FWP_MATCH_EQUAL
+		134 (0x86)
+
+		FWPM_CONDITION_ALE_APP_ID
+		FWP_MATCH_EQUAL
+		System
+
+		FWPM_CONDITION_IP_REMOTE_ADDRESS
+		FWP_MATCH_RANGE
+		fe:80:00:00:00:00:00:00:00:00:00:00:00:00:00:00-fe:80:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff:ff
+
+29
+Filter
+	Id: 0x1012e
+	GUID: 4e718c57-c397-4221-9fbb-14fd51701d6a
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0x1
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_IP_PROTOCOL
+		FWP_MATCH_EQUAL
+		17 (0x11)
+
+		FWPM_CONDITION_IP_LOCAL_PORT
+		FWP_MATCH_EQUAL
+		68 (0x44)
+
+		FWPM_CONDITION_IP_REMOTE_PORT
+		FWP_MATCH_EQUAL
+		67 (0x43)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+30
+Filter
+	Id: 0x14
+	GUID: 64e55933-15a5-495d-a928-ccca43d44875
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_INBOUND_ICMP_ERROR_V6
+	Layer GUID: 65f9bdff-3b2d-4e5d-b8c6-c720651fe898
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+31
+Filter
+	Id: 0x7
+	GUID: 4d9581d2-aef8-4993-84cd-b986ced80d42
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_INBOUND_ICMP_ERROR_V4
+	Layer GUID: 61499990-3cb6-4e84-b950-53b94b6964f3
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+32
+Filter
+	Id: 0x6
+	GUID: 0c3be01b-fe70-4cc4-89dc-c07996b67e6d
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		8388608 (0x800000)
+
+		FWPM_CONDITION_ALE_PACKAGE_ID
+		FWP_MATCH_EQUAL
+		00000001-0101-0000-0000-000000000000
+
+33
+Filter
+	Id: 0xe
+	GUID: 0aa7fff8-919f-453c-928c-28a12122ba38
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_CONNECT_V6
+	Layer GUID: 4a72393b-319f-44bc-84c3-ba54dcb3b6b4
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+34
+Filter
+	Id: 0xd
+	GUID: b6b2ca61-fb98-4422-adc2-e7cf56b3680c
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_CONNECT_V4
+	Layer GUID: c38d57d1-05a7-4c33-904f-7fbceee60e82
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+35
+Filter
+	Id: 0xb
+	GUID: 07a24961-a760-4e80-b263-6d275e1b09cb
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4
+	Layer GUID: 41390100-564c-4b32-bc1d-718048354d7c
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+36
+Filter
+	Id: 0x15
+	GUID: 13bfd422-6f75-4408-8924-9400ec0cb19c
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+37
+Filter
+	Id: 0x1012c
+	GUID: 17043d46-fac2-4561-bca1-0c7a05e95f5f
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0x1
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_NEXTHOP_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		4 (0x4)
+
+38
+Filter
+	Id: 0x18
+	GUID: 375fb39b-08c6-40f2-bdf2-08fa63f970a2
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: ba69dc66-5176-4979-9c89-26a7b46a8327
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPM_CONDITION_ARRIVAL_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPM_CONDITION_ARRIVAL_TUNNEL_TYPE
+		FWP_MATCH_EQUAL
+		14 (0xe)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		1 (0x1)
+
+39
+Filter
+	Id: 0x10503
+	GUID: 4658cd86-525d-44ed-98a5-791a7b8655f1
+	Name: "NIS ALE Flow Established V6 Filter"
+	Description: "NIS ALE Flow Established V6 Filter"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_FLOW_ESTABLISHED_V6
+	Layer GUID: 7021d2b3-dfa4-406e-afeb-6afaf7e70efd
+	SubLayer GUID: 8c36b346-4e0c-4049-8b55-5295ac35567c
+	Callout GUID: 91e902db-2cef-4040-b8e2-02fe4fd49c25
+	Action: FWP_ACTION_CALLOUT_UNKNOWN
+	Conditions:
+40
+Filter
+	Id: 0x10
+	GUID: c016105c-eb34-4519-a5fd-5f4e4ad4d18e
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_INBOUND_ICMP_ERROR_V6
+	Layer GUID: 65f9bdff-3b2d-4e5d-b8c6-c720651fe898
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+41
+Filter
+	Id: 0x10126
+	GUID: 916c0dbf-7cec-40f9-9dd9-a5e68b904510
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+42
+Filter
+	Id: 0x1025c
+	GUID: 84750a0c-b836-48e3-ab80-104985c857db
+	Name: "AppContainerBoottimeFilter"
+	Description: "AppContainerBoottimeFilter"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		4194304 (0x400000)
+
+43
+Filter
+	Id: 0x11
+	GUID: a47525e2-725b-4888-8af1-ba5a60c04f4d
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+44
+Filter
+	Id: 0x10500
+	GUID: 56b4fdc4-bb4e-4c42-a9d8-f627ee15ac21
+	Name: "NIS Stream V4 Filter"
+	Description: "NIS Stream V4 Filter"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_STREAM_V4
+	Layer GUID: 3b89653c-c170-49e4-b1cd-e0eeeee19a3e
+	SubLayer GUID: 8c36b346-4e0c-4049-8b55-5295ac35567c
+	Callout GUID: 22001ee0-8e87-4f75-ba58-248f5918a63a
+	Action: FWP_ACTION_CALLOUT_UNKNOWN
+	Conditions:
+45
+Filter
+	Id: 0x1025b
+	GUID: 89a89b7c-b5ab-4ed6-bf05-d3059281a5c5
+	Name: "AppContainerBoottimeFilter"
+	Description: "AppContainerBoottimeFilter"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4
+	Layer GUID: e1cd9fe7-f4b5-4273-96c0-592e487b8650
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		4194304 (0x400000)
+
+46
+Filter
+	Id: 0x16
+	GUID: cbfb56db-3c85-4543-9bc2-76ea28cdd74e
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+47
+Filter
+	Id: 0x1e
+	GUID: 941dad9d-7b1a-4354-997b-00cf1aa9b35c
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_IPFORWARD_V6
+	Layer GUID: 7b964818-19c7-493a-b71f-832c3684d28c
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_BLOCK
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_NONE_SET
+		786432 (0xc0000)
+
+48
+Filter
+	Id: 0x10501
+	GUID: 1ba41ed8-151d-4577-9272-317856bc637c
+	Name: "NIS Stream V6 Filter"
+	Description: "NIS Stream V6 Filter"
+	Weight: 0x0
+	Layer Id: FWPM_LAYER_STREAM_V6
+	Layer GUID: 47c9137a-7ec4-46b3-b6e4-48e926b1eda4
+	SubLayer GUID: 8c36b346-4e0c-4049-8b55-5295ac35567c
+	Callout GUID: 79f2a265-b693-4cc9-b480-cbcd87bd4747
+	Action: FWP_ACTION_CALLOUT_UNKNOWN
+	Conditions:
+49
+Filter
+	Id: 0x1012b
+	GUID: 3180114b-8338-4740-9a16-444134ad62f4
+	Name: "Interface Un-quarantine filter"
+	Description: ""
+	Weight: 0x1
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2302
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_NEXTHOP_INTERFACE_TYPE
+		FWP_MATCH_EQUAL
+		131 (0x83)
+
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		4 (0x4)
+
+50
+Filter
+	Id: 0xc
+	GUID: 5b0cb2e2-ab87-4974-9f1c-2f22a654eeb9
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0xffffffffffffffffL
+	Layer Id: FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6
+	Layer GUID: 7fb03b60-7b8d-4dfa-badd-980176fc4e12
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_FLAGS
+		FWP_MATCH_FLAGS_ALL_SET
+		1 (0x1)
+
+51
+Filter
+	Id: 0x1
+	GUID: dc95b53e-01cf-4058-821d-350b3d0d4676
+	Name: "@FirewallAPI.dll,-23505"
+	Description: "@FirewallAPI.dll,-23506"
+	Weight: 0x1
+	Layer Id: FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6
+	Layer GUID: a3b42c97-9f04-4672-b87e-cee9c483257f
+	SubLayer GUID: b3cdd441-af90-41ba-a745-7c6008ff2301
+	Callout GUID: 
+	Action: FWP_ACTION_PERMIT
+	Conditions:
+		FWPM_CONDITION_IP_PROTOCOL
+		FWP_MATCH_EQUAL
+		58 (0x3a)
+
+		FWPM_CONDITION_IP_LOCAL_PORT
+		FWP_MATCH_EQUAL
+		135 (0x87)
+
+
